@@ -22,7 +22,8 @@ const port = process.env.PORT || 4000;
 const allowedOrigins = [
   "http://localhost:5173", // local Vite dev
   "http://localhost:5174", // alternate local dev
-  "https://analysis-frontend-five.vercel.app" // deployed frontend
+  "https://analysis-frontend-five.vercel.app", // deployed frontend
+  "https://student-frontend-tan-theta.vercel.app/"
 ];
 
 // Middleware
